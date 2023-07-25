@@ -1,0 +1,55 @@
+#addSubs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addSubsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#subsList{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3ch;
+    padding: 0px;
+}
+#listItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.986);
+    width: 100%;
+    font-size: 1ch;
+}
+#addSubsButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.submitButton{
+    background-color: #1B4489;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    display:flex;
+    justify-content: center;
+    width:10vw;
+}
